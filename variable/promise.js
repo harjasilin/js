@@ -57,3 +57,10 @@ async function logMovies() {
     const movies = await response.json();
     console.log(movies);
   }
+
+
+
+  //promise and async await, callback
+
+
+//how to use ,difference , in which method we should prefer which one and why

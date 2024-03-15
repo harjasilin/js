@@ -22,7 +22,7 @@
 //useRef: when the page is render and the current data is also rendering if we dont want to chnage the value,we can store it 
 //     in  useref, we can access the proper and element inside the dom,Handling media, such as audio or video elements, 
 //    through useRef is a common use case. You can use useRef to directly access the media element, control playback, 
-//    and perform other operations imperatively. Here's an example of how you can handle media using useRef:
+//    and perform other operations imperatively. 
 
 
 //usecontext: when we are passing props through parent to child when it goes to nested child we are facing the props drilling
@@ -43,5 +43,10 @@
 //useMemo: when we are creating a componenet using usememo it will crate a cache of output upto when ever the value or the props
 //are not changing .it will prevent the rerender.
 
+
+//uselayouteffect:useLayoutEffect is similar to useEffect, but it fires synchronously after all DOM mutations. This can be 
+//useful when you need to read layout from the DOM and then make DOM mutations based on that layout synchronously.
+
+////custome hooks
 
   
